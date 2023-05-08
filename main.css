@@ -1,0 +1,386 @@
+* {box-sizing: border-box} 
+body {font-family: Arial, Helvetica, sans-serif;} 
+ 
+
+.navbar { 
+  width: 100%; 
+  background-color: #ffff; 
+  overflow: auto; 
+} 
+
+ 
+
+.navbar a { 
+  float: left; 
+  padding: 12px; 
+  color: black; 
+  text-decoration: none; 
+  font-size: 18px; 
+  width: 20%;  
+  text-align: center; 
+  border: 1px solid #000; 
+} 
+
+ 
+
+.navbar a:hover { 
+  background-color: #000; 
+  color: white; 
+} 
+
+ 
+
+.navbar a.active { 
+  background-color: #000; 
+  color: white; 
+} 
+
+ 
+
+@media screen and (max-width:500px) { 
+
+  .navbar a { 
+    float: none; 
+    display: block; 
+    width: 100%; 
+    text-align: left; 
+  } 
+
+} 
+
+img { 
+
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+} 
+
+ .container { 
+  position: relative; 
+  text-align: center; 
+  color: white; 
+} 
+
+.name { 
+
+   position: absolute; 
+  top: 8px; 
+  left: 16px; 
+  font-size: 50px;  
+} 
+
+.MissionStatment { 
+
+   position: absolute; 
+  top: 60px; 
+  left: 10px; 
+  font-size: 18px;  
+  width: 650px; 
+} 
+
+.AboutUS{ 
+   position: absolute; 
+  top: 190px; 
+  left: 50x; 
+  font-size: 18px;  
+  width: 500px; 
+} 
+
+.address{ 
+   position: absolute; 
+  bottom: 10px; 
+  left: 65%; 
+  font-size: 18px;  
+  width: 500px; 
+} 
+
+.header{ 
+  width: 100%; 
+  height: 80px; 
+  display: block; 
+  background-color: #000; 
+} 
+
+.title{ 
+  position: absolute; 
+  top: 150px; 
+  left: 16px; 
+  font-size: 20px;  
+  color: white; 
+} 
+
+h3{ 
+
+  background-color: #ffffff; 
+  height: 396px; 
+  width: 396px; 
+  border: 1px solid #000000; 
+  float: left; 
+  margin: 28px; 
+} 
+
+h3{ 
+
+  background-color: #ffffff; 
+  height: 400px; 
+  width: 390px; 
+  border: 1px solid #000000; 
+  float: left; 
+  margin: 25px;
+font-size: 15px;  
+
+} 
+
+div3{ 
+
+    background-color: #000000; 
+    width:100%; 
+    height:80px; 
+    color: white; 
+    font-size: 25px; 
+   float: right;   
+
+} 
+
+div2{ 
+
+    background-color: #000000; 
+    width:100%; 
+    height:80px; 
+    color: white; 
+    font-size: 25px; 
+   float: right;   
+} 
+
+ 
+
+
+div4{ 
+
+    background-color: #000000; 
+    width:100%; 
+    height:80px; 
+    color: white; 
+    font-size: 25px; 
+   float: right;   
+} 
+
+ 
+
+.information{ 
+  top: 120px; 
+  position: absolute; 
+  right: 20px; 
+ color: white; 
+} 
+
+.projectManager{ 
+  top: 658px; 
+  position: absolute; 
+  right: 20px; 
+ color: white; 
+
+} 
+
+.designer{ 
+  top: 1175px; 
+  position: absolute; 
+  right: 20px; 
+ color: white; 
+
+} 
+
+.programmer{ 
+  top: 1690px; 
+  position: absolute; 
+  right: 20px; 
+ color: white; 
+} 
+div5 {
+	float: left;
+	top: 20px;
+	left: 50px;
+	
+	
+	
+}
+.img3{
+  height: 190px;
+  width: 170px;
+  top: 96px;
+  position: fixed;
+  align-items: left;
+  position: fixed;
+ }
+.img4{
+  height: 180px;
+  width: 170px;
+  bottom: 70px;
+  position: fixed;
+  align-items: right;
+  position: fixed;
+}
+.img5{
+  height: 180px;
+  width: 1650px;
+  position: fixed;
+ align-items: left;
+}
+.img6{
+  height: 180px;
+  width: 1650px;
+  bottom: 70px;
+  position: fixed;
+   align-items: right;
+}
+#rcorners2 {
+  border-radius: 30px;
+  border: 2px solid #000000;
+  padding: 20px; 
+  width: 350px;
+  height: 200px;  
+   position: absolute;
+  bottom: -40px;
+  left:290px;
+  font-size: 12px;
+ 
+ 
+}
+
+#rcorners3 {
+  border-radius: 30px;
+  border: 2px solid #000000;
+  padding: 20px; 
+  width: 350px;
+  height: 200px;  
+   position: absolute;
+  bottom: -40px;
+  left:290px;
+  font-size: 12px;
+}
+
+#rcorners4 {
+  border-radius: 30px;
+  border: 2px solid #000000;
+  padding: 20px; 
+  width: 350px;
+  height: 200px;  
+   position: absolute;
+  bottom: -40px;
+  left:1000px;
+  font-size: 12px;
+}
+
+#rcorners5 {
+  border-radius: 30px;
+  border: 2px solid #000000;
+  padding: 20px; 
+  width:350px;
+  height: 200px;  
+   position: absolute;
+  bottom: -40px;
+  left:1000px;
+  font-size: 12px;
+}
+.form {
+ max-width: 500px;
+  margin: auto;
+
+  } 
+.gender-title {
+  float: left;
+} 
+.user-input-box {
+  margin: 20px;
+
+
+}
+
+
+
+.input[type=text], select {
+  width: 85%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#textboxid{
+	height:30px;
+	width: 400px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.button {
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 8px;
+  right: 200px;
+       left:40%;
+       width:150px;
+       height:33px;
+       position: absolute;
+	   top:720px;
+     
+}
+.courses {
+ position: absolute; 
+  top: 100px; 
+  left: 10px; 
+  font-size: 18px;  
+  width: 1300px; 
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+ float: right;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+ float:right;
+}
+
+
+.fa-instagram {
+  background: #e60000;
+  color: white;
+  float: right;
+  
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  float: right;
+  
+}
+.container1 {
+	background-color: grey;
+	
+}
